@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7 App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+	<div id="app">
+		<div class="view view-main view-init">
+			
+        
+			<section id="panel_menu" class=" panel panel-left panel-reveal">
+
+						<div class="block perfil">
+
+							<div class="row">
+						<article class="col-30">
+							<img src="img/usuario.png" alt="" class="img-fluid">
+								</article>
+							<article class="col-70">
+								<h6>Tu perfil</h6>
+								</article>
+
+							</div>
+							</div>
+				
+							<div id="menu-list"class="list media-list">
+			 <ul>
+				<li>
+					<li>
+						<a href="/home/" onclick="redirectToHome()" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">home</span>
+						</div>
+						<div class="item-inner">
+						  <div class="item-title">Inicio</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					<a href="modperfil.html" onclick="redirectToMod()" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">person</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Tu perfil</div>
+                    </div>
+                  </a>
+			    </li>
+			  </ul>
+			</div>
+
+		</section>
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="#" class="link"><span class="material-icons">settings</span></a>
+					</div>
+				  	<div class="title-uno">Bienvenido</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  <center><h2 class="block-title-large block-title">Catalogo de Juegos</h2></center>
+				  
+				  <div class="row">
+					<div class="column">
+					  <div class="card">
+						<img src="img/gm1.png"  style="width:100%">
+						<h1>Outer Wilds</h1>
+						<p class="price">$19.99</p>
+						<p>Discover the Outer Space!</p>
+						<p><button onclick="redirectToPage()">View</button></p>
+
+					  </div>
+					</div>
+					<div class="column">
+					  <div class="card">
+						<img src="img/gm4.png"  style="width:100%">
+						<h1>Firewatch</h1>
+						<p class="price">$19.99</p>
+						<p>Se el vigia en el bosque!</p>
+						<p><button onclick="redirectToPage()">View</button></p>
+
+					  </div>
+					</div>
+					<div class="column">
+					  <div class="card">
+						<img src="img/gm5.png"  style="width:100%">
+						<h1>Hades</h1>
+						<p class="price">$19.99</p>
+						<p>El hijo de Hades tiene su propio juego</p>
+						<p><button onclick="redirectToPage()">View</button></p>
+					  </div>
+					</div>
+					<div class="column">
+					  <div class="card">
+						<img src="img/gm6.png"  style="width:100%">
+						<h1>Hollow Knight</h1>
+						<p class="price">$19.99</p>
+						<p>El galardonado juego esta aqui!</p>
+						<p><button onclick="redirectToPage()">View</button></p>
+
+					  </div>
+					</div>
+				  </div>
+				  
+				  
+				    <h2 class="block-title">Otros Juegos</h2>
+
+            <section id="categories" class="block">
+				
+				<div class="swiper-container swiper-init" data-speed="400" data-space-between="50" data-slides-per-view="3">
+                	<div class="swiper-wrapper">
+
+						<div class="swiper-slide">
+						<a href="" class="link">
+							<div class="btn-categorie">
+								<div class="row">
+									<article class="col-40">
+										<img src="img/gm1.png" class="img-fluid">
+									</article>
+									<article class="col-60 nombre">
+										Game1
+									</article>
+								</div>
+							</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+						<a href="" class="link">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/gm2.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									Game2
+								</article>
+							</div>
+						</div>
+						</a>
+						</div>
+						
+						<div class="swiper-slide">
+							<a href="" class="link">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/gm3.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									Game3
+								</article>
+							</div> 
+						</div>
+						</div>
+						
+						<div class="swiper-slide">
+							<a href="" class="link">
+							<div class="btn-categorie">
+							<div class="row">
+								<article class="col-40">
+									<img src="img/gm4.png" alt="" class="img-fluid">
+								</article>
+								<article class="col-60 nombre">
+									Game4
+								</article>
+							</div>
+						</div>
+						</div>
+						
+					</div>
+				</div>
+
+            </section>
+				
+					
+				
+
+			</section>
+			
+		</div>
+		</div>
+	
+		<script>
+			function redirectToPage() {
+			  // Set the URL of the target page within the same folder
+			  window.location.href = "gamview.html";
+			}
+		  </script>
+		  <script>
+			function redirectToHome() {
+			  // Set the URL of the target page within the same folder
+			  window.location.href = "index.html";
+			}
+		  </script>
+		  <script>
+			function redirectToMod() {
+			  // Set the URL of the target page within the same folder
+			  window.location.href = "modperfil.html";
+			}
+		  </script>
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
